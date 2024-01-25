@@ -37,7 +37,7 @@ export default function Nav({navLinks}: Props) {
           <Link href="#" onClick={() => signOut({ callbackUrl: '/' })}>Sign out</Link>
         </>
       ) : (
-        <Link href="/api/auth/signin">Sign in</Link>
+        <Link href="/signin">Sign in</Link>
       )}
     </>
   )
